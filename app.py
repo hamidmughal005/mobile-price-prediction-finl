@@ -16,4 +16,4 @@ battery = st.number_input("Battery")
 if st.button("Predict"):
     data = np.array([[ram, battery]])
     prediction = model.predict(data)
-    st.success(f"Predicted Price: {prediction[0]}")Your Flask code here
+    st.success(f"Predicted Price: {prediction[0]}")
